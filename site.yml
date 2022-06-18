@@ -1,6 +1,6 @@
 ---
   - name: Print os facts
-    hosts: localhost
+    hosts: all
     tasks:
       - name: Print OS
         debug:
